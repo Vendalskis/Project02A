@@ -18,7 +18,7 @@ public class ParticleLauncher : MonoBehaviour {
 
         if (Input.GetButtonDown("Fire1"))
         {
-            particleLauncher.Emit(1);
+            particleLauncher.Emit(20);
             mAudioSrc.Play();
         }
         
